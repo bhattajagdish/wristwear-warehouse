@@ -11,6 +11,7 @@ import ProductDetail from "@/pages/ProductDetail";
 import NotFound from "@/pages/NotFound";
 import Portfolio from "@/pages/Portfolio";
 import Privacy from "@/pages/Privacy";
+import BookHub from "@/pages/BookHub";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/products/:productId" element={<ProductDetail />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/book-hub" element={<BookHub />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

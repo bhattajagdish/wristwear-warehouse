@@ -66,6 +66,16 @@ export default {
 				// Add our custom colors
 				navy: '#1A1F2C',
 				teal: '#0EA5E9',
+				bookBrown: {
+					light: '#8B5A2B',
+					DEFAULT: '#5D4037',
+					dark: '#3E2723',
+				},
+				bookCream: {
+					light: '#fcf5eb',
+					DEFAULT: '#f8ede3',
+					dark: '#E1D4C9',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -102,7 +112,10 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'pulse-slow': 'pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'
-			}
+			},
+			fontFamily: {
+				'serif': ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
