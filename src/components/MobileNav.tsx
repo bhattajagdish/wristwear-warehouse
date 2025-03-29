@@ -23,6 +23,12 @@ const MobileNav = () => {
         Collections
       </Link>
       <Link 
+        to="/portfolio" 
+        className="text-xl font-semibold text-navy hover:text-teal transition-colors"
+      >
+        Portfolio
+      </Link>
+      <Link 
         to="/about" 
         className="text-xl font-semibold text-navy hover:text-teal transition-colors"
       >
