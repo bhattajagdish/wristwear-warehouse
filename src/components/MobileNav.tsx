@@ -34,6 +34,12 @@ const MobileNav = () => {
       >
         About
       </Link>
+      <Link 
+        to="/privacy" 
+        className="text-xl font-semibold text-navy hover:text-teal transition-colors"
+      >
+        Privacy Policy
+      </Link>
     </div>
   );
 };
