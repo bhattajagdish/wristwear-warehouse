@@ -13,6 +13,7 @@ import NotFound from "@/pages/NotFound";
 import Portfolio from "@/pages/Portfolio";
 import Privacy from "@/pages/Privacy";
 import BookHub from "@/pages/BookHub";
+import BookBrowse from "@/pages/BookBrowse";
 
 // Create a new QueryClient instance
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const App = () => (
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/book-hub" element={<BookHub />} />
+              <Route path="/book-hub/browse" element={<BookBrowse />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
